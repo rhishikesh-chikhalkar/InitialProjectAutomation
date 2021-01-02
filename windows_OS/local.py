@@ -1,8 +1,8 @@
 import sys
 import os
 
-os.environ['mp'] = 'D:\Programs\GitHub'
-os.environ['gt'] = '6534b22c879956aa28e6c2ad055a4b5c7de3e7b0'
+os.environ['mp'] = 'FILEPATH WHERE YOU WANT TO STORE THE PROJECT'
+os.environ['gt'] = 'GITHUB_TOKEN_GENERATED_ON_GITHUB.COM'
 
 foldername = str(sys.argv[1])
 path = os.environ.get('mp')
